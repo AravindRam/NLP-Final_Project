@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Nov 20 15:35:21 2015
-
-@author: manali
-"""
-
 import re, collections
 
 def words(text): 
