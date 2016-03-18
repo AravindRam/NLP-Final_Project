@@ -1,17 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Nov 22 19:07:28 2015
-
-@author: manali
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Nov 21 14:06:16 2015
-
-@author: manali
-"""
-
 import csv
 import re
 from collections import defaultdict
@@ -66,9 +52,6 @@ def ngrams(text, n):
     text = text.split()
     return ['|'.join(text[i:i + n]) for i in range(0, len(text) - n + 1)]
     
-    
-
-
 #
 ##NOTE: Considering only essay set 1 for now
 #def main():
